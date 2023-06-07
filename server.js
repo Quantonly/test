@@ -4,7 +4,7 @@ const fs = require('fs');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const initPassword = 'yourpassword'
+const initPassword = 'ZZ727hqUoUGinµùig2PfDkqL2'
 
 app.use(bodyParser.json());
 

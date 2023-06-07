@@ -3,7 +3,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
 
   var password = document.getElementById('password-input').value;
 
-  fetch('http://localhost:3000/protected-content', {
+  fetch('https://protected-content.herokuapp.com/protected-content', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
